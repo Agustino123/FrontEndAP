@@ -1,0 +1,81 @@
+.row{
+    padding: 20px;
+    
+}
+
+div{
+    text-align:  center;
+    margin: 0 auto;
+}
+
+/* Etiqueta nombre */
+
+#nombre{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+h1{
+    font-size: 100px;
+    border-bottom: 2px solid black;
+}
+
+#info{
+    font-size: 25px;
+    padding-top: 2em ;
+}
+
+#info-stack{
+    font-size: 20px;
+}
+
+
+/* Foto de perfil */
+
+
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 20%;
+        box-shadow: 0px 0px 14px 9px rgba(0,0,0,0.73);
+        left: 2%;
+        top: 1050px;
+    }
+}
+
+@media (max-width: 575px){
+    #fotoPerfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 20%;
+        box-shadow: 0px 0px 14px 9px rgba(0,0,0,0.73);
+        left: 40%;
+        top: 550px;
+    }
+}
+
+@media (max-width: 530px){
+    #fotoPerfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 20%;
+        box-shadow: 0px 0px 14px 9px rgba(0,0,0,0.73);
+        left: 40%;
+        top: 470px;
+    }
+}
+
+@media (max-width: 349px){
+    #fotoPerfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 20%;
+        box-shadow: 0px 0px 14px 9px rgba(0,0,0,0.73);
+        left: 35%;
+        top: 400px;
+    }
+}
+
+

@@ -1,0 +1,41 @@
+.row{
+    padding: 0 20px;
+    padding-top: 220px;
+}
+
+.table{
+    margin-top: 50px;
+}
+
+.btn-table{
+    font-size: 20px;
+}
+
+.btn-table:hover{
+    color: white;
+}
+
+.container-btn{
+    margin-left: 5px;
+}
+
+.desc{
+    font-size: 50px;
+}
+
+div{
+    margin: 0 auto;
+}
+
+h1, h3{
+    display: inline-block;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
