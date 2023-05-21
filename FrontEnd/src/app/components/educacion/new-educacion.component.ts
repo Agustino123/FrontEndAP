@@ -24,7 +24,7 @@ export class NewEducacionComponent {
       alert("Educacion Añadidad");
       this.router.navigate(['']);
     }, error =>{
-      alert("Error al guardad");
+      alert("Error al guardar");
       this.router.navigate(['']);
     });
   }

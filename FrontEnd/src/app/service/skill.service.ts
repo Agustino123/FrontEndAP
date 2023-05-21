@@ -7,8 +7,8 @@ import { Skill} from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  // expURL = 'https://backendap-production-021c.up.railway.app/skill/';
-  URL = 'http://localhost:8080/skill/';
+  URL = 'https://backendap-production-021c.up.railway.app/skill/';
+  // URL = 'http://localhost:8080/skill/';
   
   constructor(private httpClient: HttpClient) { }
 

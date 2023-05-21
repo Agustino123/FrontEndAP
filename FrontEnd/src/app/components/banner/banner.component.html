@@ -1,3 +1,4 @@
-<div class="row banner">
-        <img src="../../../assets/banner.png" alt="banner">
+<div class="row banner" *ngIf="banner">
+        <button type="button" routerLink="/editbanner/1" *ngIf="isLogged" class="btn btn-light"><i class="bi bi-pencil-square"></i></button>
+        <img src={{banner.imgB}} alt="banner">
 </div>

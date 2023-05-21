@@ -29,6 +29,9 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { EditProyectosComponent } from './components/proyectos/edit-proyectos.component';
+import { NewProyectoComponent } from './components/proyectos/new-proyecto.component';
+import { EditBannerComponent } from './components/banner/edit-banner.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     EditEducacionComponent,
     EditSkillComponent,
     NewSkillComponent,
-    EditAcercaDeComponent
+    EditAcercaDeComponent,
+    EditProyectosComponent,
+    NewProyectoComponent,
+    EditBannerComponent,
   ],
   imports: [
     BrowserModule,

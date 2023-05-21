@@ -8,8 +8,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  // expURL = 'https://backendap-production-021c.up.railway.app/explab/';
-  expURL = 'http://localhost:8080/explab/';
+  expURL = 'https://backendap-production-021c.up.railway.app/explab/';
+  // expURL = 'http://localhost:8080/explab/';
   
   constructor(private httpClient: HttpClient) { }
 

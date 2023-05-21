@@ -8,8 +8,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class EducacionService {
-  // URL = 'https://backendap-production-021c.up.railway.app/educacion/';
-  URL = 'http://localhost:8080/educacion/';
+  URL = 'https://backendap-production-021c.up.railway.app/educacion/';
+  // URL = 'http://localhost:8080/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

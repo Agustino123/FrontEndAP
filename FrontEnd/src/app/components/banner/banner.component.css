@@ -8,3 +8,11 @@
     width: 100%;
     height: auto;
 }
+
+.btn{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+    width: 50px;
+}

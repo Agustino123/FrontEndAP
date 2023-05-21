@@ -8,7 +8,7 @@ export const environment = {
     authDomain: 'frontendap-e4d5c.firebaseapp.com',
     messagingSenderId: '407678104222',
   },
-    production: false,
-    URL: 'http://localhost:8080'
-    // URL: 'https://backendap-production-021c.up.railway.app/'
+    production: true,
+    // URL: 'http://localhost:8080'
+    URL: 'https://backendap-production-021c.up.railway.app/'
 };

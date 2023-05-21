@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.btn{
+    margin-bottom:40px;
+}
+
 h1{
     font-size: 80px;
     padding-top: 50px;
@@ -17,7 +21,7 @@ p{
 }
 
 .contenedor{
-    width: auto;
+    margin-top: 50px;
 }
 
 .parte1, .parte2{
@@ -26,10 +30,25 @@ p{
 }
 
 .img-proyect{
+    width: 50fr;
+    height: auto;
     box-shadow: 10px 10px 30px black;
     transition: all 1s;
 }
 
 .img-proyect:hover{
     box-shadow: 10px 10px 30px gray;
+}
+
+@media (max-width: 767px){
+    .parte1{
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 420px){
+    h1{
+        font-size: 70px;
+    }
 }

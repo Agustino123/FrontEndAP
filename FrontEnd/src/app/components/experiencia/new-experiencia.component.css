@@ -22,11 +22,13 @@ label{
     margin: 20px 0;
 }
 
+.btn-container{
+    text-align: center;
+}
+
 button{
     background-color: black;
     color: white;
-    margin-left: 400px;
-    margin-top: 30px;
 }
 
 button:hover{

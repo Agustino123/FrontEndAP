@@ -10,8 +10,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class PersonaService {
-  // URL = 'https://backendap-production-021c.up.railway.app/personas/';
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://backendap-production-021c.up.railway.app/personas/';
+  // URL = 'http://localhost:8080/personas/';
 
   constructor(private httpClient: HttpClient) { }
 
